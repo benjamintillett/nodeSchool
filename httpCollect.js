@@ -6,9 +6,6 @@ var bl = new BufferList();
 
 
 
-
-
-
 http.get(url,function(response){
 	response.setEncoding('utf8');
 	
