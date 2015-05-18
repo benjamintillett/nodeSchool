@@ -9,6 +9,6 @@ module.exports = function(dirPath,filter,callback){
 		filteredList = list.filter(function(fileName){
 			return path.extname(fileName) == '.' + filter
 		});
-		callback(null,filteredList);
+	callback(null,filteredList);
 	});
 }
